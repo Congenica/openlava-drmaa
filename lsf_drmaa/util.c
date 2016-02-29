@@ -926,7 +926,7 @@ lsfdrmaa_map_lserrno( int _lserrno )
 #ifdef LSE_REGISTRY_SYS
 		case LSE_REGISTRY_SYS:       /* A registry system call failed (NT) */
 #endif	/* LSE_REGISTRY_SYS */
-		case LSE_FILE_CLOSE:         /* Close a NULL-FILE pointer */
+		case LSE_BAD_EVENT:          /* Bad event in lim.events */
 #ifdef LSE_LIMCONF_NOTREADY
 		case LSE_LIMCONF_NOTREADY:   /* LIM configuration is not ready yet */
 #endif	/* LSE_LIMCONF_NOTREADY */
