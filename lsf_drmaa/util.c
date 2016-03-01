@@ -16,6 +16,7 @@
  * limitations under the License.
  */
 
+#include <lsf/config.h>
 #include <lsf/lsf.h>
 #include <drmaa_utils/common.h>
 #include <drmaa_utils/exception.h>
